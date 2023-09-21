@@ -1,0 +1,132 @@
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 200px;
+    width: 600;
+    background-color: #141111;
+    padding: 30px;
+}
+.login-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: rgb(199, 199, 210);
+    font-size: 48px;
+    font-weight: 700;
+}
+.underline{
+    width: 61px;.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    background-color: #fff;
+    padding: 30px;
+}
+    height: 6px;
+    background:rgb(199, 199, 210);
+    border-radius: 9px;
+}
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 680px;
+    height:80px;
+    background: #fff;
+    border-radius: 6px;
+}
+
+.inputs input{
+    height: 50px;
+    width: 400px;
+    border:none;
+    outline:none;
+    font-size: 19px;
+    background: transparent;
+    font-size: 19px;
+
+}
+.forgot-password{
+    padding-left:62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+.forgot-password span{
+    color: #4c00b4;
+    cursor: pointer;
+}
+.submit-container{
+    display: flex;
+        gap:30px;
+    margin: 60px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* Responsive styles for mobile screens */
+@media (max-width: 767px) {
+    .login-container{
+        max-width: 450px;
+    }
+    .text {
+      font-size: 24px;
+    }
+  
+    .inputs {
+        max-width: 300px;
+      margin-top: 20px;
+    }
+  
+    .input {
+      height: 50px;
+      width: 70%;
+    }
+  
+    .inputs input {
+      height: 36px;
+      font-size: 14px;
+    }
+  
+    .forgot-password {
+      font-size: 14px;
+    }
+  
+    .submit-container {
+      flex-direction: column;
+      margin: 20px auto;
+    }
+  
+    .submit {
+      height: 40px;
+      font-size: 14px;
+    }
+  }
+  
